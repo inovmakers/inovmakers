@@ -102,7 +102,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-      </main>
+      <section id="contato" className="bg-slate-950 py-20 text-white"><div className="mx-auto max-w-7xl px-6 text-center"><span className="text-sm font-semibold uppercase tracking-wider text-blue-400">Entre em contato</span><h2 className="mt-3 text-4xl font-bold lg:text-5xl">Vamos transformar a educação juntos?</h2><p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-300">Fale com a InovMakers para conhecer nossos projetos, formações e soluções em educação, tecnologia e inovação.</p><div className="mt-8 flex flex-wrap justify-center gap-4"><a href="mailto:contato@inovmakers.com.br" className="rounded-full bg-white px-7 py-3 font-semibold text-slate-900 transition hover:bg-blue-50">contato@inovmakers.com.br</a><a href="https://www.instagram.com/inovmakers" target="_blank" rel="noopener noreferrer" className="rounded-full border border-slate-600 px-7 py-3 font-semibold text-white transition hover:border-blue-400 hover:text-blue-400">Instagram</a></div></div></section></main>
 
       <About />
 
