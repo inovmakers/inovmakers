@@ -134,39 +134,7 @@ export default function Home() {
                   />
                 </div>
 
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-slate-900">
-                    Prof. Dr. Sebastião da Silva Vieira
-                  </h3>
-
-                  <p className="mt-2 font-semibold text-blue-600">
-                    Fundador e Diretor de Educação e Inovação
-                  </p>
-
-                  <p className="mt-5 leading-7 text-slate-600">
-                    Doutor em Educação Matemática e Tecnológica pela UFPE,
-                    mestre em Educação Tecnológica e especialista em Cultura
-                    Maker e Educação 4.0. Atua com educação digital, cultura
-                    maker, pensamento computacional, inteligência artificial,
-                    STEAM e aprendizagem criativa.
-                  </p>
-
-                  <h4 className="mt-6 font-semibold text-slate-900">
-                    Reconhecimentos
-                  </h4>
-
-                  <ul className="mt-3 space-y-2 text-sm leading-6 text-slate-600">
-                    <li>
-                      • Prêmio Porvir de Educação — 1º lugar nacional (2025)
-                    </li>
-                    <li>
-                      • Educador Transformador — reconhecimento estadual
-                      (2024 e 2026)
-                    </li>
-                    <li>• Semifinalista do Prêmio LED</li>
-                    <li>• Destaque nacional na Liga STEAM</li>
-                  </ul>
-                </div>
+                <div className="p-8"><h3 className="text-2xl font-bold text-slate-900">Prof. Dr. Sebastião da Silva Vieira</h3><p className="mt-2 font-semibold text-blue-600">Fundador e Diretor de Educação e Inovação</p><p className="mt-5 leading-7 text-slate-600">Doutor em Educação Matemática e Tecnológica e Mestre em Educação Tecnológica pela Universidade Federal de Pernambuco (UFPE). Atua na interseção entre educação, tecnologia e inovação, com experiência em formação de professores, Educação Digital, Inteligência Artificial, Pensamento Computacional, Cultura Maker, STEAM e Aprendizagem Criativa.</p><h4 className="mt-6 font-semibold text-slate-900">Reconhecimentos</h4><ul className="mt-3 space-y-2 text-sm leading-6 text-slate-600"><li>• Prêmio Porvir de Educação - 1º lugar nacional (2025)</li><li>• Educador Transformador - reconhecimento estadual (2024 e 2026)</li><li>• Semifinalista do Prêmio LED - Luz na Educação</li><li>• Destaque nacional na Liga STEAM</li></ul></div>
               </div>
             </article>
 
