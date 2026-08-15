@@ -63,7 +63,7 @@ export default function RootLayout({
               <div className="mt-5 space-y-3 text-slate-300">
                 <p>
                   <strong className="text-white">E-mail:</strong>{" "}
-                  contato.inovmakers@gmail.com
+                  inovmakers@gmail.com
                 </p>
 
                 <p>
