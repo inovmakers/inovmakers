@@ -1,65 +1,44 @@
 export default function WhatsappButton() {
   return (
-    <div
+    <a
+      href="https://wa.me/5581986535652?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20os%20servi%C3%A7os%20da%20InovMakers."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Fale com a InovMakers pelo WhatsApp"
       style={{
         position: "fixed",
-        bottom: "20px",
         right: "20px",
+        bottom: "20px",
+        width: "64px",
+        height: "64px",
+        borderRadius: "50%",
+        backgroundColor: "#25D366",
         display: "flex",
-        flexDirection: "column",
-        gap: "10px",
+        alignItems: "center",
+        justifyContent: "center",
         zIndex: 9999,
+        boxShadow: "0 6px 20px rgba(0,0,0,0.22)",
+        transition: "transform 0.2s ease, box-shadow 0.2s ease",
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.transform = "scale(1.08)";
+        e.currentTarget.style.boxShadow = "0 8px 25px rgba(0,0,0,0.28)";
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.transform = "scale(1)";
+        e.currentTarget.style.boxShadow = "0 6px 20px rgba(0,0,0,0.22)";
       }}
     >
-      <a
-        href="https://www.instagram.com/inovmakers/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Instagram InovMakers"
-        title="Instagram @inovmakers"
-        style={{
-          width: "56px",
-          height: "56px",
-          backgroundColor: "#E1306C",
-          borderRadius: "50%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          color: "white",
-          textDecoration: "none",
-          boxShadow: "0 4px 12px rgba(0,0,0,0.20)",
-        }}
+      <svg
+        width="34"
+        height="34"
+        viewBox="0 0 24 24"
+        fill="white"
+        aria-hidden="true"
       >
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <rect x="3" y="3" width="18" height="18" rx="5" />
-          <circle cx="12" cy="12" r="4" />
-          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
-        </svg>
-      </a>
-
-      <a
-        href="https://wa.me/5581986535652"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="WhatsApp InovMakers"
-        title="WhatsApp InovMakers"
-        style={{
-          width: "56px",
-          height: "56px",
-          backgroundColor: "#25D366",
-          borderRadius: "50%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          color: "white",
-          textDecoration: "none",
-          boxShadow: "0 4px 12px rgba(0,0,0,0.20)",
-        }}
-      >
-        <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4.1 1.6 5.9L.2 24l6.5-1.7c1.7.9 3.5 1.3 5.4 1.3h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.2-6.1-3.5-8.3ZM12.1 21.6c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.9 1 1-3.8-.2-.4a9.7 9.7 0 1 1 8.2 4.7Zm5.3-7.3c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-1.6-.8-2.7-1.4-3.8-3.2-.3-.5.3-.5.8-1.6.1-.2.1-.4 0-.6-.1-.2-.7-1.7-.9-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.1 1.4 3.3c.2.2 2.4 3.7 5.8 5.1 2.2.9 3 .9 4 .8.7-.1 1.7-.7 1.9-1.3.2-.6.2-1.2.1-1.3-.1-.2-.3-.3-.6-.4Z" />
-        </svg>
-      </a>
-    </div>
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.075-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+        <path d="M20.52 3.449A11.82 11.82 0 0 0 12.04 0C5.495 0 .16 5.335.16 11.88c0 2.093.546 4.137 1.584 5.934L.055 23.88l6.208-1.628a11.87 11.87 0 0 0 5.777 1.468h.005c6.542 0 11.88-5.335 11.88-11.88a11.82 11.82 0 0 0-3.405-8.391zM12.045 21.75h-.004a9.86 9.86 0 0 1-5.026-1.376l-.36-.214-3.684.966.984-3.592-.234-.369a9.86 9.86 0 0 1-1.51-5.285c0-5.466 4.45-9.916 9.92-9.916a9.85 9.85 0 0 1 7.02 2.91 9.86 9.86 0 0 1 2.905 7.024c-.004 5.466-4.454 9.916-9.92 9.916z" />
+      </svg>
+    </a>
   );
 }
