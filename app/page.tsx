@@ -15,18 +15,18 @@ export default function Home() {
           <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-2">
             <div>
               <span className="inline-flex rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700">
-                Educa��o � Tecnologia � Inova��o
+                Educação • Tecnologia • Inovação
               </span>
               <h1 className="mt-6 text-5xl font-bold leading-tight tracking-tight text-slate-900 lg:text-7xl">
                 Transformamos ideias em
                 <span className="text-blue-600">
                   {" "}
-                  inova��o educacional.
+                  inovação educacional.
                 </span>
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
-                A InovMakers desenvolve projetos, forma��es e solu��es
-                educacionais que conectam tecnologia, criatividade e pr�ticas
+                A InovMakers desenvolve projetos, formações e soluções
+                educacionais que conectam tecnologia, criatividade e práticas
                 inovadoras para transformar a aprendizagem.
               </p>
               <div className="mt-10 flex flex-wrap gap-4">
@@ -34,13 +34,13 @@ export default function Home() {
                   href="#quem-somos"
                   className="rounded-full bg-blue-600 px-8 py-4 font-semibold text-white shadow-lg transition hover:bg-blue-700"
                 >
-                  Conhe�a a InovMakers
+                  Conheça a InovMakers
                 </a>
                 <a
                   href="#servicos"
                   className="rounded-full border border-slate-300 bg-white px-8 py-4 font-semibold text-slate-700 transition hover:border-blue-300 hover:bg-blue-50"
                 >
-                  Conhe�a nossos servi�os
+                  Conheça nossos serviços
                 </a>
               </div>
               <div className="mt-12 grid max-w-xl grid-cols-3 border-t border-slate-200 pt-8">
@@ -55,15 +55,15 @@ export default function Home() {
                     Digital
                   </p>
                   <p className="mt-1 text-sm text-slate-500">
-                    Educa��o e tecnologia
+                    Educação e tecnologia
                   </p>
                 </div>
                 <div>
                   <p className="text-2xl font-bold text-slate-900">
-                    Inova��o
+                    Inovação
                   </p>
                   <p className="mt-1 text-sm text-slate-500">
-                    Transforma��o educacional
+                    Transformação educacional
                   </p>
                 </div>
               </div>
@@ -73,12 +73,12 @@ export default function Home() {
               <div className="relative rounded-[2rem] border border-slate-200 bg-white p-8 shadow-2xl lg:p-12">
                 <img
                   src="/logo.png"
-                  alt="InovMakers � Educa��o, Tecnologia e Inova��o"
+                  alt="InovMakers • Educação, Tecnologia e Inovação"
                   className="mx-auto h-auto w-full max-w-lg"
                 />
                 <div className="mt-8 rounded-2xl bg-slate-50 p-6 text-center">
                   <p className="text-lg font-semibold text-slate-900">
-                    Educa��o que conecta
+                    Educação que conecta
                   </p>
                   <p className="mt-2 text-sm leading-6 text-slate-600">
                     Pessoas, conhecimento, criatividade e tecnologia para
@@ -97,11 +97,11 @@ export default function Home() {
               Nossa equipe
             </span>
             <h2 className="mt-3 text-4xl font-bold text-slate-900 lg:text-5xl">
-              Experi�ncia e conhecimento a servi�o da inova��o educacional.
+              Experiência e conhecimento a serviço da inovação educacional.
             </h2>
             <p className="mt-6 text-lg leading-8 text-slate-600">
-              A InovMakers re�ne experi�ncia acad�mica, pesquisa e pr�tica
-              educacional para desenvolver solu��es inovadoras.
+              A InovMakers reúne experiência acadêmica, pesquisa e prática
+              educacional para desenvolver soluções inovadoras.
             </p>
           </div>
           <div className="mt-16 grid gap-10 lg:grid-cols-2">
@@ -110,11 +110,11 @@ export default function Home() {
                 <div className="bg-slate-100 p-6">
                   <img
                     src="/sebastiao.jpg"
-                    alt="Prof. Dr. Sebasti�o da Silva Vieira"
+                    alt="Prof. Dr. Sebastião da Silva Vieira"
                     className="h-64 w-full rounded-2xl object-cover object-top"
                   />
                 </div>
-                <div className="p-8"><h3 className="text-2xl font-bold text-slate-900">Prof. Dr. Sebasti�o da Silva Vieira</h3><p className="mt-2 font-semibold text-blue-600">Fundador e Diretor de Educa��o e Inova��o</p><p className="mt-5 leading-7 text-slate-600">Doutor em Educa��o Matem�tica e Tecnol�gica e Mestre em Educa��o Tecnol�gica pela Universidade Federal de Pernambuco (UFPE). Atua na interse��o entre educa��o, tecnologia e inova��o, com experi�ncia em forma��o de professores, Educa��o Digital, Intelig�ncia Artificial, Pensamento Computacional, Cultura Maker, STEAM e Aprendizagem Criativa.</p><h4 className="mt-6 font-semibold text-slate-900">Reconhecimentos</h4><ul className="mt-3 space-y-2 text-sm leading-6 text-slate-600"><li>� Pr�mio Porvir de Educa��o - 1� lugar nacional (2025)</li><li>� Educador Transformador - reconhecimento estadual (2024 e 2026)</li><li>� Semifinalista do Pr�mio LED - Luz na Educa��o</li><li>� Destaque nacional na Liga STEAM</li></ul></div>
+                <div className="p-8"><h3 className="text-2xl font-bold text-slate-900">Prof. Dr. Sebastião da Silva Vieira</h3><p className="mt-2 font-semibold text-blue-600">Fundador e Diretor de Educação e Inovação</p><p className="mt-5 leading-7 text-slate-600">Doutor em Educação Matemática e Tecnológica e Mestre em Educação Tecnológica pela Universidade Federal de Pernambuco (UFPE). Atua na interseção entre educação, tecnologia e inovação, com experiência em formação de professores, Educação Digital, Inteligência Artificial, Pensamento Computacional, Cultura Maker, STEAM e Aprendizagem Criativa.</p><h4 className="mt-6 font-semibold text-slate-900">Reconhecimentos</h4><ul className="mt-3 space-y-2 text-sm leading-6 text-slate-600"><li>• Prêmio Porvir de Educação - 1º lugar nacional (2025)</li><li>• Educador Transformador - reconhecimento estadual (2024 e 2026)</li><li>• Semifinalista do Prêmio LED - Luz na Educação</li><li>• Destaque nacional na Liga STEAM</li></ul></div>
               </div>
             </article>
             <article className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
@@ -130,23 +130,23 @@ export default function Home() {
                   <h3 className="text-2xl font-bold text-slate-900">
                     Profa. Dra. Virginia Renata Vilar da Silva
                   </h3>
-                  <p className="mt-2 font-semibold text-blue-600">Co-Fundadora e Diretora de Educa��o e Inova��o</p>
+                  <p className="mt-2 font-semibold text-blue-600">Co-Fundadora e Diretora de Educação e Inovação</p>
                   <p className="mt-5 leading-7 text-slate-600">
-                    Doutora e mestre em Educa��o pela UFPE, com forma��o
-                    multidisciplinar e atua��o nas �reas de forma��o docente,
-                    tecnologias digitais, intelig�ncia artificial e educa��o
+                    Doutora e mestre em Educação pela UFPE, com formação
+                    multidisciplinar e atuação nas áreas de formação docente,
+                    tecnologias digitais, inteligência artificial e educação
                     inclusiva.
                   </p>
                   <h4 className="mt-6 font-semibold text-slate-900">
-                    Atua��o e reconhecimentos
+                    Atuação e reconhecimentos
                   </h4>
                   <ul className="mt-3 space-y-2 text-sm leading-6 text-slate-600">
                     <li>
-                      � Pesquisadora vinculada ao Centro Paulo Freire � UFPE
+                      • Pesquisadora vinculada ao Centro Paulo Freire  UFPE
                     </li>
-                    <li>� Integrante do GEPIFHRI/UFPE/CNPq</li>
-                    <li>� Pesquisadora do LIPEL/Multiverso/UFPE</li>
-                    <li>� Autora de publica��es cient�ficas</li>
+                    <li>• Integrante do GEPIFHRI/UFPE/CNPq</li>
+                    <li>• Pesquisadora do LIPEL/Multiverso/UFPE</li>
+                    <li>• Autora de publicações científicas</li>
                   </ul>
                 </div>
               </div>
@@ -158,7 +158,7 @@ export default function Home() {
       <Steam />
       <Awards />
 
-      <section id="contato" className="bg-slate-950 py-20 text-white"><div className="mx-auto max-w-7xl px-6 text-center"><span className="text-sm font-semibold uppercase tracking-wider text-blue-400">Entre em contato</span><h2 className="mt-3 text-4xl font-bold lg:text-5xl">Vamos transformar a educa��o juntos?</h2><p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-300">Fale com a InovMakers para conhecer nossos projetos, forma��es e solu��es em educa��o, tecnologia e inova��o.</p><div className="mt-8 flex flex-wrap justify-center gap-4"><a href="mailto:contato@inovmakers.com.br" className="rounded-full bg-white px-7 py-3 font-semibold text-slate-900 transition hover:bg-blue-50">contato@inovmakers.com.br</a><a href="https://www.instagram.com/inovmakers" target="_blank" rel="noopener noreferrer" className="rounded-full border border-slate-600 px-7 py-3 font-semibold text-white transition hover:border-blue-400 hover:text-blue-400">Instagram</a></div></div></section>
+      <section id="contato" className="bg-slate-950 py-20 text-white"><div className="mx-auto max-w-7xl px-6 text-center"><span className="text-sm font-semibold uppercase tracking-wider text-blue-400">Entre em contato</span><h2 className="mt-3 text-4xl font-bold lg:text-5xl">Vamos transformar a educação juntos?</h2><p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-300">Fale com a InovMakers para conhecer nossos projetos, formações e soluções em educação, tecnologia e inovação.</p><div className="mt-8 flex flex-wrap justify-center gap-4"><a href="mailto:contato@inovmakers.com.br" className="rounded-full bg-white px-7 py-3 font-semibold text-slate-900 transition hover:bg-blue-50">contato@inovmakers.com.br</a><a href="https://www.instagram.com/inovmakers" target="_blank" rel="noopener noreferrer" className="rounded-full border border-slate-600 px-7 py-3 font-semibold text-white transition hover:border-blue-400 hover:text-blue-400">Instagram</a></div></div></section>
 </>
   );
 }
