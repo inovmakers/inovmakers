@@ -153,9 +153,7 @@ export default function Home() {
                     Profa. Dra. Virginia Renata Vilar da Silva
                   </h3>
 
-                  <p className="mt-2 font-semibold text-blue-600">
-                    Sócia e Consultora Educacional
-                  </p>
+                  <p className="mt-2 font-semibold text-blue-600">Co-Fundadora e Diretora de Educação e Inovação</p>
 
                   <p className="mt-5 leading-7 text-slate-600">
                     Doutora e mestre em Educação pela UFPE, com formação
