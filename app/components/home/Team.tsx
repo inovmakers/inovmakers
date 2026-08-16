@@ -31,9 +31,9 @@ export default function Team() {
         <div className="mt-12 grid gap-6 lg:grid-cols-2">
           {team.map((member) => (
             <article key={member.name} className="overflow-hidden rounded-2xl border border-slate-200 bg-white">
-              <div className="grid sm:grid-cols-[11rem_1fr]">
+              <div className="grid sm:grid-cols-[14rem_1fr]">
                 <div className="bg-slate-100 p-4 sm:p-5">
-                  <Image src={member.image} alt={member.alt} width={352} height={448} className="h-64 w-full rounded-xl object-cover object-top sm:h-full" />
+                  <Image src={member.image} alt={member.alt} width={352} height={448} className="h-80 w-full rounded-xl object-cover object-top sm:h-full" />
                 </div>
                 <div className="p-6 sm:p-7">
                   <h3 className="text-xl font-semibold tracking-tight text-slate-950">{member.name}</h3>
