@@ -1,14 +1,14 @@
 export default function HeroNew() {
   return (
     <section id="inicio" className="relative overflow-hidden bg-white">
-      <div className="mx-auto grid min-h-[680px] max-w-7xl items-center gap-14 px-6 py-20 lg:grid-cols-2 lg:px-8">
+      <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 sm:px-6 sm:py-20 lg:grid-cols-2 lg:px-8 lg:py-24">
 
         <div>
           <span className="inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-blue-700">
             Educação - Tecnologia - Inovação
           </span>
 
-          <h1 className="mt-7 max-w-4xl text-[3.2rem] font-semibold leading-tight tracking-tight text-slate-950 sm:text-6xl lg:text-[4.5rem]">
+          <h1 className="mt-7 max-w-4xl text-4xl font-semibold leading-[1.08] tracking-tight text-slate-950 sm:text-6xl lg:text-[3.75rem]">
             Transformamos desafios educacionais em{" "}
             <span className="text-blue-700">
               experiências inovadoras.
