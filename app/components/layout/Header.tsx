@@ -20,7 +20,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-[72px] max-w-6xl items-center justify-between px-5 sm:px-6 lg:px-8">
         <a href="#inicio" onClick={closeMenu} className="shrink-0" aria-label="InovMakers — início">
-          <Image src="/logo.png" alt="InovMakers" width={136} height={44} priority className="h-10 w-auto sm:h-11" />
+          <Image src="/logo.png" alt="InovMakers" width={136} height={44} priority className="h-10 w-auto sm:h-11" style={{ width: "auto" }} />
         </a>
         <nav aria-label="Navegação principal" className="hidden items-center gap-5 xl:flex">
           {links.map((link) => <a key={link.href} href={link.href} className="text-sm font-medium text-slate-600 transition hover:text-blue-700">{link.label}</a>)}
