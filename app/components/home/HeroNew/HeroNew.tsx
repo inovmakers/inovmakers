@@ -1,24 +1,24 @@
-export default function HeroNew() {
+﻿export default function HeroNew() {
   return (
     <section id="inicio" className="relative overflow-hidden bg-white">
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 sm:px-6 sm:py-20 lg:grid-cols-2 lg:px-8 lg:py-24">
 
         <div>
           <span className="inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-blue-700">
-            Educação - Tecnologia - Inovação
+            EducaÃ§Ã£o - Tecnologia - InovaÃ§Ã£o
           </span>
 
           <h1 className="mt-7 max-w-4xl text-4xl font-semibold leading-[1.08] tracking-tight text-slate-950 sm:text-6xl lg:text-[3.75rem]">
             Transformamos desafios educacionais em{" "}
             <span className="text-blue-700">
-              experiências inovadoras.
+              experiÃªncias inovadoras.
             </span>
           </h1>
 
           <p className="mt-7 max-w-2xl text-base leading-8 text-slate-600 sm:text-xl">
-            Desenvolvemos projetos, formações e soluções que conectam tecnologia,
-            cultura maker, pensamento computacional, STEAM e inteligência artificial
-            para transformar práticas educacionais.
+            Desenvolvemos projetos, formaÃ§Ãµes e soluÃ§Ãµes que conectam tecnologia,
+            cultura maker, pensamento computacional, STEAM e inteligÃªncia artificial
+            para transformar prÃ¡ticas educacionais.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -26,14 +26,14 @@ export default function HeroNew() {
               href="#quem-somos"
               className="rounded-full bg-blue-700 px-7 py-3.5 text-center text-sm font-semibold text-white shadow-lg transition hover:bg-blue-800"
             >
-              Conheça a InovMakers
+              ConheÃ§a a InovMakers
             </a>
 
             <a
               href="#servicos"
               className="rounded-full border border-slate-200 px-7 py-3.5 text-center text-sm font-semibold text-slate-700 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
             >
-              Nossas soluções
+              Nossas soluÃ§Ãµes
             </a>
           </div>
 
@@ -62,7 +62,7 @@ export default function HeroNew() {
                 IA
               </p>
               <p className="mt-1 text-xs text-slate-500">
-                Tecnologia com propósito
+                Tecnologia com propÃ³sito
               </p>
             </div>
 
@@ -84,7 +84,7 @@ export default function HeroNew() {
               </p>
 
               <p className="mt-2 text-2xl font-semibold text-white">
-                Educação que conecta.
+                EducaÃ§Ã£o que conecta.
               </p>
 
               <div className="mt-10 grid grid-cols-2 gap-3">
@@ -97,7 +97,7 @@ export default function HeroNew() {
                     Pesquisa
                   </p>
                   <p className="mt-1 text-xs leading-5 text-slate-500">
-                    Conhecimento para orientar a prática.
+                    Conhecimento para orientar a prÃ¡tica.
                   </p>
                 </div>
 
@@ -106,10 +106,10 @@ export default function HeroNew() {
                     02
                   </p>
                   <p className="mt-2 text-sm font-medium text-white">
-                    Inovação
+                    InovaÃ§Ã£o
                   </p>
                   <p className="mt-1 text-xs leading-5 text-blue-100">
-                    Tecnologia com propósito educacional.
+                    Tecnologia com propÃ³sito educacional.
                   </p>
                 </div>
 
@@ -118,7 +118,7 @@ export default function HeroNew() {
                     Pesquisa + Tecnologia + Pessoas
                   </p>
                   <p className="mt-2 text-sm leading-6 text-slate-400">
-                    Soluções pensadas para transformar contextos reais.
+                    SoluÃ§Ãµes pensadas para transformar contextos reais.
                   </p>
                 </div>
 
@@ -131,3 +131,5 @@ export default function HeroNew() {
     </section>
   );
 }
+
+
