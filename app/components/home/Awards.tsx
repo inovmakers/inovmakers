@@ -45,14 +45,14 @@ export default function Awards() {
   ];
 
   return (
-    <section id="premiacoes" className="bg-white py-24 lg:py-32">
+    <section id="premiacoes" className="bg-white py-20 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-3xl text-center">
           <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
             Reconhecimento
           </span>
 
-          <h2 className="mt-4 text-4xl font-bold text-slate-900 lg:text-5xl">
+          <h2 className="section-title mt-4">
             Premiações e reconhecimentos
           </h2>
 

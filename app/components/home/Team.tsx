@@ -107,7 +107,7 @@ export default function Team() {
           {team.map((member) => (
             <article
               key={member.name}
-              className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm"
+              className="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl"
             >
               <div className="bg-slate-100 p-4">
                 <Image
@@ -115,7 +115,7 @@ export default function Team() {
                   alt={member.alt}
                   width={720}
                   height={720}
-                  className="aspect-square h-auto w-full rounded-xl object-cover object-top"
+                  className="aspect-square h-auto w-full rounded-xl object-cover object-top transition duration-500 group-hover:scale-[1.02]"
                 />
               </div>
 

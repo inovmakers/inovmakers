@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Steam() {
   return (
-    <section id="steam" className="bg-slate-50 py-24 lg:py-32">
+    <section id="steam" className="bg-white py-20 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-4xl text-center">
           <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
             Clube STEAM
           </span>
 
-          <h2 className="mt-4 text-4xl font-bold text-slate-900 lg:text-5xl">
+          <h2 className="section-title mt-4">
             Aprendizagem criativa para transformar ideias em experiências.
           </h2>
 
@@ -27,7 +27,7 @@ export default function Steam() {
         </div>
 
         <div className="mt-16 grid gap-8 lg:grid-cols-3">
-          <article className="group overflow-hidden rounded-3xl bg-white shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+          <article className="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl">
             <div className="overflow-hidden">
               <Image
                 src="/steam-1.png"
@@ -52,7 +52,7 @@ export default function Steam() {
             </div>
           </article>
 
-          <article className="group overflow-hidden rounded-3xl bg-white shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+          <article className="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl">
             <div className="overflow-hidden">
               <Image
                 src="/steam-2.png"
@@ -77,7 +77,7 @@ export default function Steam() {
             </div>
           </article>
 
-          <article className="group overflow-hidden rounded-3xl bg-white shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+          <article className="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl">
             <div className="overflow-hidden">
               <Image
                 src="/steam-3.png"

@@ -1,112 +1,70 @@
+const pillars = [
+  {
+    number: "01",
+    eyebrow: "Tecnologia e criação",
+    title: "Aprender fazendo, investigando e criando.",
+    description: "Experiências que desenvolvem autonomia, criatividade e competências digitais com propósito pedagógico.",
+    items: ["Educação Digital", "Pensamento Computacional", "Cultura Maker e STEAM"],
+  },
+  {
+    number: "02",
+    eyebrow: "Formação e inclusão",
+    title: "Práticas que acolhem diferentes formas de aprender.",
+    description: "Formação crítica e estratégias inclusivas para os desafios contemporâneos da educação.",
+    items: ["Inteligência Artificial na Educação", "Educação Inclusiva e PEI", "Relações Étnico-Raciais"],
+  },
+  {
+    number: "03",
+    eyebrow: "Estratégia e impacto",
+    title: "Soluções construídas para cada realidade.",
+    description: "Planejamento, implementação e acompanhamento para transformar boas ideias em resultados consistentes.",
+    items: ["Formação Continuada", "Consultoria Educacional", "Projetos de Inovação"],
+  },
+];
+
 export default function Services() {
-  const services = [
-    {
-      title: "Educação Digital",
-      description:
-        "Formação e estratégias para o desenvolvimento de competências digitais, cidadania digital, segurança e uso consciente das tecnologias.",
-    },
-    {
-      title: "Pensamento Computacional",
-      description:
-        "Desenvolvimento do raciocínio lógico, criatividade, resolução de problemas e competências computacionais para diferentes etapas da educação.",
-    },
-    {
-      title: "Cultura Maker e STEAM",
-      description:
-        "Projetos práticos e interdisciplinares que integram ciência, tecnologia, engenharia, artes e matemática por meio da aprendizagem criativa.",
-    },
-    {
-      title: "Inteligência Artificial na Educação",
-      description:
-        "Formação e orientação para o uso crítico, ético, responsável e pedagógico da inteligência artificial nos processos educacionais.",
-    },
-    {
-      title: "Educação Inclusiva e PEI",
-      description:
-        "Estratégias para práticas pedagógicas inclusivas, acessibilidade, diferenciação pedagógica e construção de Planos Educacionais Individualizados.",
-    },
-    {
-      title: "Relações Étnico-Raciais",
-      description:
-        "Formações e práticas pedagógicas voltadas à valorização da diversidade, identidade, cultura e educação para as relações étnico-raciais.",
-    },
-    {
-      title: "Formação Continuada",
-      description:
-        "Formação de professores, gestores e equipes pedagógicas para os desafios contemporâneos da educação e da transformação digital.",
-    },
-    {
-      title: "Consultoria Educacional",
-      description:
-        "Planejamento, implementação e acompanhamento de projetos de inovação educacional de acordo com as necessidades de cada escola ou rede.",
-    },
-    {
-      title: "Projetos de Inovação",
-      description:
-        "Criação e implementação de projetos educacionais personalizados envolvendo tecnologia, sustentabilidade, criatividade e aprendizagem baseada em projetos.",
-    },
-  ];
-
   return (
-    <section id="servicos" className="bg-white py-24 lg:py-32">
-      <div className="mx-auto max-w-7xl px-6">
-        <div className="mx-auto max-w-3xl text-center">
-          <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
-            Nossos serviços
-          </span>
-
-          <h2 className="mt-4 text-4xl font-bold text-slate-900 lg:text-5xl">
-            Soluções para transformar a educação
-          </h2>
-
-          <p className="mt-6 text-lg leading-8 text-slate-600">
-            Desenvolvemos formações, consultorias e projetos personalizados
-            para escolas, professores, gestores e redes de ensino.
+    <section id="servicos" className="bg-slate-950 py-20 text-white sm:py-24 lg:py-32">
+      <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div className="grid gap-8 lg:grid-cols-[.8fr_1.2fr] lg:items-end">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-[.18em] text-sky-300">Nossas soluções</p>
+            <h2 className="mt-5 text-[clamp(2.2rem,5vw,3.75rem)] font-bold leading-[1.02] tracking-[-.045em]">Da ideia à prática, com intenção e método.</h2>
+          </div>
+          <p className="max-w-2xl text-base leading-8 text-slate-300 lg:justify-self-end lg:text-lg">
+            Organizamos nossas soluções em três frentes complementares para atender
+            escolas, professores, gestores e redes de ensino com mais clareza.
           </p>
         </div>
 
-        <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {services.map((service, index) => (
-            <article
-              key={service.title}
-              className="group rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm transition duration-300 hover:-translate-y-2 hover:border-blue-200 hover:bg-white hover:shadow-xl"
-            >
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-100 text-sm font-bold text-blue-600 transition group-hover:bg-blue-600 group-hover:text-white">
-                {String(index + 1).padStart(2, "0")}
+        <div className="mt-14 grid gap-5 lg:grid-cols-3">
+          {pillars.map((pillar) => (
+            <article key={pillar.number} className="group flex h-full flex-col rounded-[1.75rem] border border-white/10 bg-white/[.055] p-6 transition duration-300 hover:-translate-y-1 hover:border-blue-400/40 hover:bg-white/[.08] sm:p-8">
+              <div className="flex items-center justify-between">
+                <span className="text-sm font-bold text-sky-300">{pillar.number}</span>
+                <span aria-hidden="true" className="h-px w-16 bg-gradient-to-r from-blue-500 to-transparent" />
               </div>
-
-              <h3 className="mt-6 text-xl font-bold text-slate-900">
-                {service.title}
-              </h3>
-
-              <p className="mt-4 leading-7 text-slate-600">
-                {service.description}
-              </p>
+              <p className="mt-8 text-xs font-bold uppercase tracking-[.15em] text-blue-300">{pillar.eyebrow}</p>
+              <h3 className="mt-3 text-2xl font-bold leading-tight tracking-tight text-white">{pillar.title}</h3>
+              <p className="mt-4 leading-7 text-slate-400">{pillar.description}</p>
+              <ul className="mt-8 space-y-3 border-t border-white/10 pt-6">
+                {pillar.items.map((item) => (
+                  <li key={item} className="flex items-center gap-3 text-sm font-semibold text-slate-200">
+                    <span aria-hidden="true" className="h-2 w-2 rounded-full bg-blue-400" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </article>
           ))}
         </div>
 
-        <div className="mt-16 rounded-3xl bg-slate-950 p-8 text-center text-white lg:p-12">
-          <p className="text-sm font-semibold uppercase tracking-wider text-blue-400">
-            Soluções personalizadas
-          </p>
-
-          <h3 className="mt-4 text-2xl font-bold lg:text-3xl">
-            Projetos personalizados para cada realidade educacional.
-          </h3>
-
-          <p className="mx-auto mt-4 max-w-3xl leading-7 text-slate-300">
-            A InovMakers trabalha em parceria com escolas e redes de ensino
-            para compreender seus desafios e construir soluções alinhadas aos
-            seus objetivos, contexto e necessidades.
-          </p>
-
-          <a
-            href="#contato"
-            className="mt-8 inline-flex rounded-full bg-blue-600 px-7 py-3 font-semibold text-white transition hover:bg-blue-700"
-          >
-            Conheça nossas soluções
-          </a>
+        <div className="mt-8 flex flex-col items-start justify-between gap-6 rounded-[1.75rem] bg-blue-600 p-6 sm:flex-row sm:items-center sm:p-8">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-[.16em] text-blue-100">Solução personalizada</p>
+            <h3 className="mt-2 text-xl font-bold sm:text-2xl">Conte seu desafio. Nós desenhamos o caminho com você.</h3>
+          </div>
+          <a href="#contato" className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-full bg-white px-6 text-sm font-bold text-blue-700 transition hover:-translate-y-0.5 hover:bg-blue-50">Solicitar uma conversa</a>
         </div>
       </div>
     </section>
