@@ -11,9 +11,9 @@ export default function Contact() {
       <div aria-hidden="true" className="absolute -left-24 -top-24 h-80 w-80 rounded-full border-[70px] border-white/5" />
       <div aria-hidden="true" className="absolute -bottom-32 -right-20 h-96 w-96 rounded-full bg-sky-400/20 blur-3xl" />
       <div className="relative mx-auto max-w-5xl px-5 text-center sm:px-6">
-        <p className="text-xs font-bold uppercase tracking-[.2em] text-blue-100">O próximo projeto pode começar aqui</p>
-        <h2 className="mx-auto mt-5 max-w-4xl text-[clamp(2.25rem,6vw,4.5rem)] font-bold leading-[1.02] tracking-[-.05em]">Vamos transformar um desafio educacional em uma experiência de impacto?</h2>
-        <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-blue-100 sm:text-lg">Conte um pouco sobre sua escola, rede ou projeto. A InovMakers ajuda a construir uma solução alinhada à sua realidade.</p>
+        <p className="text-xs font-bold uppercase tracking-[.2em] text-blue-100">Sua escola pode ser o próximo capítulo</p>
+        <h2 className="mx-auto mt-5 max-w-4xl text-[clamp(2.25rem,6vw,4.5rem)] font-bold leading-[1.02] tracking-[-.05em]">Leve uma experiência InovMakers para sua escola ou rede.</h2>
+        <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-blue-100 sm:text-lg">Conte seu desafio. Vamos conversar sobre uma formação, oficina ou projeto alinhado à sua realidade educacional.</p>
         <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <a
             href={whatsappUrl}
