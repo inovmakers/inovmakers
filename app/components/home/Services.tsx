@@ -64,7 +64,14 @@ export default function Services() {
             <p className="text-xs font-bold uppercase tracking-[.16em] text-blue-100">Solução personalizada</p>
             <h3 className="mt-2 text-xl font-bold sm:text-2xl">Conte seu desafio. Nós desenhamos o caminho com você.</h3>
           </div>
-          <a href="#contato" className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-full bg-white px-6 text-sm font-bold text-blue-700 transition hover:-translate-y-0.5 hover:bg-blue-50">Solicitar uma conversa</a>
+          <a
+            href="#contato"
+            style={{ color: "#1d4ed8" }}
+            className="inline-flex min-h-12 shrink-0 items-center justify-center gap-2 rounded-full border border-white bg-white px-6 text-sm font-extrabold shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-50"
+          >
+            Solicitar uma conversa
+            <span aria-hidden="true" className="text-lg leading-none">→</span>
+          </a>
         </div>
       </div>
     </section>

@@ -15,8 +15,17 @@ export default function Contact() {
         <h2 className="mx-auto mt-5 max-w-4xl text-[clamp(2.25rem,6vw,4.5rem)] font-bold leading-[1.02] tracking-[-.05em]">Vamos transformar um desafio educacional em uma experiência de impacto?</h2>
         <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-blue-100 sm:text-lg">Conte um pouco sobre sua escola, rede ou projeto. A InovMakers ajuda a construir uma solução alinhada à sua realidade.</p>
         <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-13 w-full items-center justify-center rounded-full bg-white px-7 text-sm font-bold text-blue-700 shadow-xl transition hover:-translate-y-0.5 hover:bg-blue-50 sm:w-auto">Conversar pelo WhatsApp</a>
-          <a href="mailto:inovmaker@gmail.com" className="inline-flex min-h-13 w-full items-center justify-center rounded-full border border-white/30 bg-white/10 px-7 text-sm font-bold text-white backdrop-blur transition hover:bg-white/15 sm:w-auto">Enviar e-mail</a>
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#1d4ed8" }}
+            className="inline-flex min-h-13 w-full items-center justify-center gap-2 rounded-full border border-white bg-white px-7 text-sm font-extrabold shadow-xl transition hover:-translate-y-0.5 hover:bg-blue-50 sm:w-auto"
+          >
+            Conversar pelo WhatsApp
+            <span aria-hidden="true" className="text-lg leading-none">→</span>
+          </a>
+          <a href="mailto:inovmaker@gmail.com" className="inline-flex min-h-13 w-full items-center justify-center rounded-full border-2 border-white/70 bg-blue-800 px-7 text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-900 sm:w-auto">Enviar e-mail</a>
         </div>
       </div>
 
