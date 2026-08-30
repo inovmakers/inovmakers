@@ -75,6 +75,18 @@ const team = [
       "Prêmio Naíde Teodósio de Estudos de Gênero (2024)",
     ],
   },
+  {
+    name: "Werner Martins",
+    role: "Gestão Comercial, Estratégia e Operações",
+    image: "/werner-martins.jpg",
+    alt: "Werner Martins",
+    bio: "Graduando em Gestão Pública e fundador do PBO — Protocolo de Blindagem Operacional, com atuação em gestão comercial, estratégia e operações.",
+    highlights: [
+      "Experiência prática em ambientes de atipicidade e inclusão",
+      "Vivência internacional na Suíça — gestão comercial e operações",
+      "Estudante de Piloto Privado de Avião — Vector/Nav Treinamentos",
+    ],
+  },
 ];
 
 export default function Team() {
